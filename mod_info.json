@@ -1,12 +1,15 @@
 {
 	"id":"SSMSQoLTest",
 	"author":"Malte Schulze",
-	"name":"SSMS QoL Test",
-	"version":"1.0",
+	"name":"20 SSMS QoL Test",
+	"version":"1.1",
 	"description":"This mod adds test settings to the SSMS QoL menues to showcase capabilities and implementation steps.",
-	"gameVersion":"0.9.0",
+	"gameVersion":"0.95a-RC15",
 	"jars":["jars/SSMSQoLTest.jar"],
 	"modPlugin":"ssms.qoltest.SSMSQoLTestModPlugin",
+	"dependencies":[
+		{"id":"SSMSQoL", "name":"SSMS QoL", "version":{"major":1, "minor":5}},
+	],
 	"loadAfter":["SSMSQoL"],
-	"dependencies":[{"id":"SSMSQoL","min":"0.9.0"}]
+	"dependenciesCustom":[{"id":"SSMSQoL","min":"0.9.0"}]
 }
